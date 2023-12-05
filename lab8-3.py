@@ -13,3 +13,17 @@ def sum_to(n):
 
 The function should be able to have an integer passed to it and return the sum of all the values from 1 to that integer
 """
+# Author: Nazeer Thompson
+
+
+def sum_to(n):
+    total = 0
+    i = 1
+    while i <= n:
+        total += i
+        i += 1
+    return total
+
+
+
+
